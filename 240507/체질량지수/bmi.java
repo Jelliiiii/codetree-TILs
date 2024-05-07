@@ -8,7 +8,7 @@ public class Main {
         if(bb>=25){
             System.out.printf(bb + "\n" + "Obesity");
         }else{
-            System.out.printf(bb + "\n" + "Normal");
+            System.out.printf(bb);
         }
         sc.close();
         // 여기에 코드를 작성해주세요.
