@@ -10,6 +10,7 @@ public class Main {
         }else{
             System.out.printf(bb + "\n" + "Normal");
         }
+        sc.close();
         // 여기에 코드를 작성해주세요.
     }
 }
