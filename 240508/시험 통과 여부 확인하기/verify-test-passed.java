@@ -6,7 +6,7 @@ public class Main {
         if(s>=80){
             System.out.print("pass");
         }else{
-            System.out.print((80-s) + "more score");
+            System.out.print((80-s) + " more score");
         }
         sc.close();
         // 여기에 코드를 작성해주세요.
