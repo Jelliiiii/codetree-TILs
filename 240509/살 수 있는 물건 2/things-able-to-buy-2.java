@@ -8,7 +8,7 @@ public class Main {
         }else if(n<3000 && n>=1000){
             System.out.print("mask");
         }else if(n<1000 && n>=500){
-            System.out.print("mask");
+            System.out.print("pen");
         }else{
             System.out.print("no");
         }
