@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
         if(m>=3&&m<=5){
-            System.out.println("Spinrg");
+            System.out.println("Spring");
         }else if(m>=6&&m<=8){
             System.out.println("Summer");
         }else if(m>=9&&m<=11){
