@@ -6,12 +6,13 @@ public class Main {
         String b = sc.next();
         int c = sc.nextInt();
         String d = sc.next();
-        if(b.equals("W")  && d.equals("M")){
-            System.out.print(0);
-        }else if(a>=19 || c>=19){
+        
+        if ((a >= 19 && b.equals("M")) || (c >= 19 && d.equals("M"))) {
             System.out.print(1);
+        } else {
+            System.out.print(0);
         }
+        
         sc.close();
-        // 여기에 코드를 작성해주세요.
     }
 }
