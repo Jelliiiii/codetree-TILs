@@ -3,22 +3,20 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
-        if(a>b){
-            if(a>c){
-                System.out.print(a);
-            }else{
-                System.out.print(c);
-            }
+        int m = Integer.MIN_VALUE;
+
+        // a, b, c 중 최대값 찾기
+        if (a > m) {
+            m = a;
         }
-        if(b>a){
-            if(b>c){
-                System.out.print(b);
-            }else{
-                System.out.print(c);
-            }
+        if (b > m) {
+            m = b;
         }
-        sc.close();
+        if (c > m) {
+            m = c;
         }
         
-        // 여기에 코드를 작성해주세요.
+        System.out.print(m);
+        sc.close();
     }
+}
