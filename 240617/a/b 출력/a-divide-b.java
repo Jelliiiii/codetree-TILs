@@ -12,11 +12,13 @@ public class Main {
         BigDecimal a = new BigDecimal(inputA);
         BigDecimal b = new BigDecimal(inputB);
         
-        MathContext mc = new MathContext(21, RoundingMode.DOWN);
+        MathContext mc = new MathContext(30, RoundingMode.DOWN);
         
         BigDecimal result = a.divide(b, mc);
         
-        System.out.format("%.20f", result);
+        BigDecimal finalResult = result.setScale(20, RoundingMode.DOWN);
+        
+        System.out.println(finalResult);
         
         scanner.close();
     }
