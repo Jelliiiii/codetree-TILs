@@ -5,6 +5,10 @@ public class Main {
         int n = sc.nextInt();
         int count = 0;
         while(true){
+            if(n==1){
+                System.out.print(count);
+                break;
+            }
             if(n%2==0){
                 n = n/2;
                 count++;
@@ -12,10 +16,7 @@ public class Main {
                 n = (n*3) + 1;
                 count++;
             }
-            if(n==1){
-                System.out.print(count);
-                break;
-            }
+            
         }
         sc.close();
         // 여기에 코드를 작성해주세요.
