@@ -16,7 +16,7 @@ public class Main {
                 } 
                 else if (i % 2 == 0) {
                     for (int j = 0; j < i; j++) {
-                        System.out.print(" ");
+                        System.out.print("  ");
                     }
                     for (int j = 0; j < (n - i / 2); j++) {
                         System.out.print("* ");
@@ -24,7 +24,7 @@ public class Main {
                 }
                 else {
                     for (int j = 0; j < i; j++) {
-                        System.out.print(" ");
+                        System.out.print("  ");
                     }
                     for (int j = 0; j < (n - i / 2); j++) {
                         if (j % 2 == 0) {
