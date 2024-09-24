@@ -26,7 +26,6 @@ public class Main {
                     for (int j = 0; j < i; j++) {
                         System.out.print(" ");
                     }
-
                     for (int j = 0; j < (n - i / 2); j++) {
                         if (j % 2 == 0) {
                             System.out.print("* ");
@@ -36,6 +35,8 @@ public class Main {
                     }
                 }
                 System.out.println(); 
+            }
         }
         sc.close();
     }
+}
