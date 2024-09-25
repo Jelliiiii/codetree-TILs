@@ -10,9 +10,9 @@ public class Main {
             // 첫 번째 줄과 마지막 줄
             if (i == 0 || i == n - 1) {
                 for (int j = 0; j < n; j++) {
-                    System.out.print("*");
+                    System.out.print("* ");
                     if (j < n - 1) {
-                        System.out.print(" ");
+                        System.out.print("  ");
                     }
                 }
             } 
@@ -20,19 +20,19 @@ public class Main {
             else {
                 for (int j = 0; j < n; j++) {
                     if (j == 0 || j == n - 1) {
-                        System.out.print("*");
+                        System.out.print("* ");
                     } 
                     // 중간의 공백 처리
                     else if (j < i) {
-                        System.out.print(" ");
+                        System.out.print("  ");
                     } 
                     // 별 출력
                     else if (j >= i) {
-                        System.out.print("*");
+                        System.out.print("* ");
                     }
 
                     if (j < n - 1) {
-                        System.out.print(" ");
+                        System.out.print("  ");
                     }
                 }
             }
