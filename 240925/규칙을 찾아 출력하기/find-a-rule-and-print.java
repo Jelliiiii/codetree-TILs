@@ -11,9 +11,6 @@ public class Main {
             if (i == 0 || i == n - 1) {
                 for (int j = 0; j < n; j++) {
                     System.out.print("* ");
-                    if (j < n - 1) {
-                        System.out.print("  ");
-                    }
                 }
             } 
             // 중간 줄 처리
@@ -24,19 +21,15 @@ public class Main {
                     } 
                     // 중간의 공백 처리
                     else if (j < i) {
-                        System.out.print("  ");
+                        System.out.print("  ");  // 빈 공간도 두 칸 (공백 뒤에 추가 공백)
                     } 
                     // 별 출력
-                    else if (j >= i) {
+                    else {
                         System.out.print("* ");
-                    }
-
-                    if (j < n - 1) {
-                        System.out.print("  ");
                     }
                 }
             }
-            System.out.println();
+            System.out.println();  // 줄 바꿈
         }
         sc.close();
     }
