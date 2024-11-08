@@ -6,7 +6,7 @@ public class Main {
         int x = 65;
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
-                System.out.print((char)x + " ");
+                System.out.print((char)x);
                 x++;
             }
         }
