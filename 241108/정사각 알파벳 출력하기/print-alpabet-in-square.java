@@ -9,6 +9,7 @@ public class Main {
                 System.out.print((char)x);
                 x++;
             }
+            System.out.println();
         }
         sc.close();
         // 여기에 코드를 작성해주세요.
