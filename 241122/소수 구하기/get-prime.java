@@ -10,9 +10,9 @@ public class Main {
                     cnt++;
                 }
                 if(cnt==2){
-                    System.out.print(j + " ");
+                    System.out.print(i + " ");
                 }
-            }
+            }     
         }
         sc.close();
         // 여기에 코드를 작성해주세요.
